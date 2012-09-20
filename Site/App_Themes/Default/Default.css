@@ -1,0 +1,108 @@
+﻿*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    margin-top: 10px;
+    font-family: Verdana, Arial, Trebuche MS, sans-serif;
+    font-size: 90%;
+    background: #fff url(../../Imagens/Background.png) repeat;
+}
+
+#Header
+{
+    width: 900px;
+    margin: 0px auto;
+    height: 150px;
+    background-image: url(../../Imagens/Header.png);
+    background-repeat: no-repeat;
+}
+
+#Footer
+{
+    width: 880px;
+    padding: 10px;
+    margin: 0px auto;
+    background-color: #ffc94f;
+    font-size: 80%;
+    text-align: center;
+}
+
+#Content
+{
+    border-top: 5px solid #000;
+    width: 880px;
+    padding: 10px;
+    margin: 0px auto;
+    background-color: #fff;
+}
+
+#Content h1, #Content p, #Content input
+{
+    margin: 10px;
+}
+
+#Header ul
+{
+    list-style: none;
+}
+
+#Header ul li
+{
+    float: right;
+    margin-top: 122px;
+}
+
+#Header ul li a
+{
+    border: 1px solid #000;
+    text-decoration: none;
+    padding: 10px 20px;
+    height: 30px;
+    background-color: #369;
+    color: #000;
+    margin: 0px 10px;
+}
+
+#Header ul li a:hover
+{
+    border-top: 1px solid #fff;
+    color: #fff;
+}
+
+.Post
+{
+    border: 2px dotted #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.Post h1
+{
+    font-size: 130%;
+    color: #2f4f4f;
+}
+
+.PostCategorias
+{
+    font-size: 90%;
+    float: right;
+    border-bottom: 2px dotted #ccc;
+}
+
+.PostConteudo
+{
+    font-size: 80%;
+    display: table;
+    width:100%;
+}
+
+.PostDataInclusao
+{
+    font-size: 90%;
+    float: left;
+    border-bottom: 2px dotted #ccc;
+}

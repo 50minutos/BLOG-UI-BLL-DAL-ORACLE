@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.master.cs" Inherits="Site.Default" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="Header">
+        <ul>
+            <li><asp:HyperLink runat="server" NavigateUrl="~/Admin/Login.aspx">:: admin ::</asp:HyperLink></li>
+            <li><asp:HyperLink runat="server" NavigateUrl="Default.aspx">:: home ::</asp:HyperLink></li>
+        </ul>
+    </div>
+    <div id="Content">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    <div id="Footer">by Agnaldo &copy; 2012 &middot; agnaldo@50minutos.com.br &middot; <a href="http://50minutos.com.br">http://50minutos.com.br</a></div>
+    </form>
+</body>
+</html>
